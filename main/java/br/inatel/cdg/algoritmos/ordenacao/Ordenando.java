@@ -4,7 +4,7 @@ public abstract class Ordenando {
 
     protected Ordenacao ordenacao;
 
-    public int[]ordenar(int vetor){
+    public int[]ordenar(int[] vetor){
         return ordenacao.ordenar(vetor);
     }
 
